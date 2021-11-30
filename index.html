@@ -1,18 +1,113 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
     <title>Document</title>
 </head>
+
 <body>
-    
 
 
-    <header></header>
-    <main></main>
-    <footer></footer>
+
+    <header>
+
+        <div class="headers">
+
+            <div class="logo">
+                <img src="images/Logo.png" width="49px" alt="">
+            </div>
 
 
-    
+            <nav>
+
+                <a href="">Краткая информация</a>
+                <a href="">Доп.источники</a>
+                <a href="">Подписка на обновления</a>
+            </nav>
+
+
+
+        </div>
+
+    </header>
+
+
+    <main>
+        <h1 class="Zag1">TCP/IP</h1>
+
+        <div class="Zags">
+            <h2 class="Zag2">Transmission Control Protocol(TCP)</h2>
+            <h2 class="Zag2">Internet Protocol(IP)</h2>
+        </div>
+
+
+        <div class="ZagsP">
+            <p class="p1">Один из основных протоколов передачи данных интернета. Предназначен для управления передачей
+                данных
+                интернета. Пакеты в TCP называются сегментами.В стеке протоколов TCP/IP выполняет функции транспортного
+                уровня модели OSI.</p>
+
+
+
+            <p class="p1"> Маршрутизируемый протокол сетевого уровня стека TCP/IP. Именно IP стал тем протоколом,
+                который объединил
+                отдельные компьютерные сети во всемирную сеть Интернет. Неотъемлемой частью протокола является адресация
+                сети
+            </p>
+        </div>
+
+
+        <img src="images/work.png" width="520px" alt="">
+        <p>Рисунок 1 - Как это работает</p>
+
+        <h1 class="dop">Дополнительные источники:</h1>
+
+        <img src="images/Logo_wiki.png" width="180px" alt="">
+
+        <h2>Wiki</h2>
+
+        <a href="" class="abutton">TCP/IP</a>
+
+        <a href="" class="abutton">TCP</a>
+
+        <a href="" class="abutton">IP</a>
+    </main>
+
+
+    <footer class="cfooter">
+
+        <div class="footers">
+            <p>Бражников Иван Евгеньевич</p>
+
+            <p>201-324</p>
+
+            <p>30.11.2021</p>
+
+
+            <form name="contact" method="post" data-netlify="true">
+
+                <fieldset>
+
+                    <legend>Форма для подписки на обновления</legend>
+                    <label><span>Имя: </span> <input type="text" name="Имя" placeholder="UserName" class="Obz" required>
+                    </label>
+
+                    <label>Email: <input type="email" name="email" placeholder="example@mail.ru" required></label>
+
+                    <button type="submit" class="SubmitForm">Отправить</button>
+
+                </fieldset>
+
+
+            </form>
+        </div>
+    </footer>
+
+
+
 </body>
+
 </html>

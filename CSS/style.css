@@ -1,11 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@200&display=swap');
+
+
 body
 {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #F4F1DE;
 }
 
-footer
+main
 {
     flex-grow: 1;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.headers
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px;
+}
+
+a:hover
+{
+    color: #E07A5F;
+}
+
+.Zag1
+{
+    font-size: 38px;
+    color: #3D405B;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Zags
+{
+    display: flex;
+    justify-content: center;
+
+    gap: 540px;
+}
+
+.Zag2
+{
+    width: 260px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.ZagsP
+{
+    
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    
+}
+
+.p1
+{
+    width: 540px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+
+.dop
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.abutton
+{
+    width:40px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+
+.footers
+{
+
+    display: flex;
+    border-top: 1px solid #81B29A;
+    margin: 40px;
 }
