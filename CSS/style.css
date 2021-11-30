@@ -28,6 +28,12 @@ a{
     margin: 60px;
 }
 
+.navhead
+{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
 a:hover
 {
     color: #E07A5F;
@@ -134,6 +140,7 @@ a:hover
     border-top: 1px solid #81B29A;
     margin: 40px;
     
+    
 }
 
 .contforn
@@ -150,5 +157,32 @@ a:hover
 .formfot
 {
    
-    margin: 50px;
+    margin-left: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.SubmitForm
+{
+    width:60px;
+    padding: 5px;
+    
+    background-color: #81B29A;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+
+.obz
+{
+    border-radius: 3px;
+    border: 1px solid #81B29A;
+}
+
+.classform
+{
+    width: 270px;
+    padding: 20px;
 }

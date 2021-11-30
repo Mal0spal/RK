@@ -21,11 +21,11 @@
             </div>
 
 
-            <nav>
+            <nav class="navhead">
 
-                <a href="#bottom">Краткая информация</a>
-                <a href="">Доп.источники</a>
-                <a href="">Подписка на обновления</a>
+                <a href="#osn">Краткая информация</a>
+                <a href="#dop">Доп.источники</a>
+                <a href="#podp">Подписка на обновления</a>
             </nav>
 
 
@@ -37,7 +37,7 @@
 
     <main>
         <h1 class="Zag1">TCP/IP</h1>
-
+        <a name="osn"></a>
         <div class="Zags">
             <h2 class="Zag2">Transmission Control Protocol(TCP)</h2>
             <h2 class="Zag2">Internet Protocol(IP)</h2>
@@ -67,7 +67,7 @@
         <div class="dop1">
 
             <h1 class="dop">Дополнительные источники:</h1>
-
+            <a name="dop"></a>
             <img src="images/Logo_wiki.png" width="180px" alt="">
 
             <h2 class="wiki">Wiki</h2>
@@ -90,6 +90,7 @@
     <footer class="cfooter">
 
         <div class="footers">
+
             <div class="ContForm">
                 <p class="contform1">Бражников Иван Евгеньевич</p>
 
@@ -97,20 +98,21 @@
 
                 <p class="contform1">30.11.2021</p>
             </div>
-
+            <a name="podp"></a>
             <div class="FormFot">
                 <form name="contact" method="post" data-netlify="true">
 
-                    <fieldset>
+                    <fieldset class="classform">
 
                         <legend>Форма для подписки на обновления</legend>
                         <label><span>Имя: </span> <input type="text" name="Имя" placeholder="UserName" class="Obz"
                                 required>
                         </label>
 
-                        <label>Email: <input type="email" name="email" placeholder="example@mail.ru" required></label>
+                        <label>Email: <input type="email" name="email" class="Obz" placeholder="example@mail.ru"
+                                required></label>
 
-                        <button type="submit" class="SubmitForm">Отправить</button>
+                        <button type="submit" class="SubmitForm">Submit</button>
 
                     </fieldset>
 
