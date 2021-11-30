@@ -23,7 +23,7 @@
 
             <nav>
 
-                <a href="">Краткая информация</a>
+                <a href="#bottom">Краткая информация</a>
                 <a href="">Доп.источники</a>
                 <a href="">Подписка на обновления</a>
             </nav>
@@ -59,48 +59,62 @@
             </p>
         </div>
 
+        <div class="howwork">
+            <img src="images/work.png" width="520px" alt="">
+            <p>Рисунок 1 - Как это работает</p>
+        </div>
 
-        <img src="images/work.png" width="520px" alt="">
-        <p>Рисунок 1 - Как это работает</p>
+        <div class="dop1">
 
-        <h1 class="dop">Дополнительные источники:</h1>
+            <h1 class="dop">Дополнительные источники:</h1>
 
-        <img src="images/Logo_wiki.png" width="180px" alt="">
+            <img src="images/Logo_wiki.png" width="180px" alt="">
 
-        <h2>Wiki</h2>
+            <h2 class="wiki">Wiki</h2>
 
-        <a href="" class="abutton">TCP/IP</a>
 
-        <a href="" class="abutton">TCP</a>
+        </div>
 
-        <a href="" class="abutton">IP</a>
+
+
     </main>
 
+    <div class="links">
+        <a href="https://ru.wikipedia.org/wiki/TCP/IP" class="abutton">TCP/IP</a>
+
+        <a href="https://ru.wikipedia.org/wiki/Transmission_Control_Protocol" class="abutton">TCP</a>
+
+        <a href="https://ru.wikipedia.org/wiki/IP" class="abutton">IP</a>
+    </div>
 
     <footer class="cfooter">
 
         <div class="footers">
-            <p>Бражников Иван Евгеньевич</p>
+            <div class="ContForm">
+                <p class="contform1">Бражников Иван Евгеньевич</p>
 
-            <p>201-324</p>
+                <p class="contform1">201-324</p>
 
-            <p>30.11.2021</p>
+                <p class="contform1">30.11.2021</p>
+            </div>
 
+            <div class="FormFot">
+                <form name="contact" method="post" data-netlify="true">
 
-            <form name="contact" method="post" data-netlify="true">
+                    <fieldset>
 
-                <fieldset>
+                        <legend>Форма для подписки на обновления</legend>
+                        <label><span>Имя: </span> <input type="text" name="Имя" placeholder="UserName" class="Obz"
+                                required>
+                        </label>
 
-                    <legend>Форма для подписки на обновления</legend>
-                    <label><span>Имя: </span> <input type="text" name="Имя" placeholder="UserName" class="Obz" required>
-                    </label>
+                        <label>Email: <input type="email" name="email" placeholder="example@mail.ru" required></label>
 
-                    <label>Email: <input type="email" name="email" placeholder="example@mail.ru" required></label>
+                        <button type="submit" class="SubmitForm">Отправить</button>
 
-                    <button type="submit" class="SubmitForm">Отправить</button>
+                    </fieldset>
 
-                </fieldset>
-
+            </div>
 
             </form>
         </div>
